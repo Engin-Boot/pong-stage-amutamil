@@ -6,7 +6,7 @@ This module desides the side from which the ball has to start
 
 ## Acceptance Criteria
 
-### Scenario: Ball starting position
+### Scenario: Setting the ball position to start to move
 
   Given the UI is setup
 
@@ -18,4 +18,4 @@ This module desides the side from which the ball has to start
   
   When **MARK CHECKER** calls this module
   
-  Then ball starts from player who won the last strike
+  Then ball starts from player whose score gets incremented last
