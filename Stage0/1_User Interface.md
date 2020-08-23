@@ -64,7 +64,7 @@ SCORE DISPLAY, BACKGROUND DESIGN
   
   ----------------------------------------------------------------
   
-  When **MARK UPDATER** calls
+  When **MARK UPDATER** call
   
   Then score incremented for anyone of the player
   as mentioned by **MARK UPDATER**
