@@ -6,20 +6,20 @@ This module update scores for players
 
 ## Acceptance Criteria
 
-### Scenario: Updating mark for 'Player 2'
+### Scenario: Incrementing score for 'Player 2'
 
-  Given the game is running
+  Given the game is running and ball is moving
 
-  When the **COLLISION DETECTOR** detects collision on left boundary
+  When the **COLLISION DETECTOR** detects ball collision on left boundary
   
-  Then **MARK UPDATER** increase score for
+  Then **MARK UPDATER** increment score for
   'player 2'(player on right side)
   
-  ### Scenario: Updating mark for 'Player 1'
+  ### Scenario: Incrementing score for 'Player 1'
 
-  Given the game is running
+  Given the game is running and ball is moving
 
-  When the **COLLISION DETECTOR** detect collision on right boundary
+  When the **COLLISION DETECTOR** detect ball collision on right boundary
   
-  Then **MARK UPDATER** increase score for
+  Then **MARK UPDATER** increment score for
   'player 1'(player on left side)
