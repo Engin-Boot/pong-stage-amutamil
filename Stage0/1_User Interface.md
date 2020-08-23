@@ -7,30 +7,30 @@ SCORE DISPLAY, BACKGROUND DESIGN
 
 ## Acceptance Criteria
 
-### Scenario: Playing area size
+### Scenario: Creating playing area
 
   Given the x-y dimensions
 
   When game launched
 
-  Then the playing area with given dimension is setup by this module
+  Then create the playing area
 
-### Scenario: Background
+### Scenario: Designing Back ground
 
-  Given the background type(i.e., colour,image, video), dimensions
+  Given the back ground specifications
 
   When game launched
 
-  Then the background is setup for playing area by this module
+  Then the back ground is setup for playing area by this module
 
-### Scenario: Pad
+### Scenario: Designing the Pad
 
   Given the pad specifications
 
   When game launched
 
-  Then two 1 dimensional floating pad is setup within playing area
-  by this module
+  Then two 1D floating pad designed for given specification
+  
   
   ----------------------------------------------------------------
   
@@ -38,20 +38,19 @@ SCORE DISPLAY, BACKGROUND DESIGN
   
   Then pad moves up and down
   
-### Scenario: Ball
+### Scenario: Designing Ball
 
   Given the Ball specifications
   
   When game launched
 
-  Then one 2 dimensional movable ball is setup within playing area
-  by this module
+  Then one 2D movable ball designed for given specification
   
   ----------------------------------------------------------------
   
   When **BALL MOVER** calls
   
-  Then ball moves within playing area  
+  Then ball positions changes within playing area 
   
 ### Scenario: Score Display
 
@@ -59,12 +58,10 @@ SCORE DISPLAY, BACKGROUND DESIGN
   
   When game launched
   
-  Then score display for two players is setup within given area
-  by this module
+  Then score display for two players designed
   
   ----------------------------------------------------------------
   
   When **MARK UPDATER** call
   
-  Then score incremented for anyone of the player
-  as mentioned by **MARK UPDATER**
+  Then score changes for any of the player
