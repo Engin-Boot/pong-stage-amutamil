@@ -31,7 +31,6 @@ SCORE DISPLAY, BACKGROUND DESIGN
 
   Then two 1D floating pad designed for given specification
   
-  
   ----------------------------------------------------------------
   
   When **MOVE PAD** calls
@@ -50,7 +49,7 @@ SCORE DISPLAY, BACKGROUND DESIGN
   
   When **BALL MOVER** calls
   
-  Then ball positions changes within playing area 
+  Then ball positions changes within playing area
   
 ### Scenario: Score Display
 
