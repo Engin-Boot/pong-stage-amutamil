@@ -2,7 +2,7 @@
 
 ## Feature
 
-This module desides the side from which the ball has to start
+This module decide the side from which the ball has to start
 
 ## Acceptance Criteria
 
@@ -12,7 +12,7 @@ This module desides the side from which the ball has to start
 
   When the **START BUTTON** is clicked
   
-  Then the ball starts from 'Player_one'
+  Then the ball starts from 'Player one'
   
   --------------------------------------
   
