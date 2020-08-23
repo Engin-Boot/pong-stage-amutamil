@@ -16,7 +16,7 @@
   Then that player is  displayed as winner and
   calls **REPLAY/QUIT** module
   
-### Scenario: Continue after score updation
+### Scenario: Continue after score updated
 
   Given the game is running and mark updated
 
