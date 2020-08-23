@@ -1,8 +1,8 @@
-# Fetch Inputand Move pads
+# Fetch Input and Move pads
 
 ## Feature
 
-Fetches input fom user and moves the pad up and down
+Fetches input from user and moves the pad up and down
 
 ## Acceptance Criteria
 
