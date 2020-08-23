@@ -2,12 +2,29 @@
 
 ## Startup Sequence
 
--describe-how-your-modules-interact-to-start
+  * All modules under UI is setup
+  
+  * start button clicked
+  
+  * Input fetch module activated
 
 ## Movement Initiation
 
--describe-how-modules-interact-to-make-the-ball-move
-
+  * **Input fetch** module moves pad
+  
+  * **Determine direction** module determines direction
+    of ball movement
+  
+  * Ball mover module moves ball as specified by
+    **Determine direction** module
+    
+  * when ball hit up/left wall or pad direction changed
+  
 ## One score
 
--describe-how-the-modules-interact-to-record-scores
+  * **Collision detector** module checks for collision
+  
+  * When ball hit left/right wall, then mark updated
+    by **Mark Updater** module
+    
+    ![alt text](https://github.com/Engin-Boot/pong-stage-amutamil/blob/master/Stage0/sequence%20-start.png?raw=true)
