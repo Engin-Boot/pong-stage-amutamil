@@ -12,12 +12,20 @@ This module moves the ball in different directions(2D) within playing area
 
   When the ball begin to move from one of the player
   
-  Then the direction is set as '180 degree' or
+  Then the direction is set as '180 degree and' or
   horizontal
   
   --------------------------------------
   
   When **COLLISION DETECTOR** calls **DETERTMINE DIRECTION**
   
-  Then direction is changed according to previous direction
+  Then direction/angle is changed according to previous direction
   or angle of collision
+
+### Scenario: Move ball
+
+  Given the direction from **DETERMINE DIRECTION** module and ball and playing area
+  
+  When game runs
+  
+  Then ball moves in direction/angle specified by **DETERMINE DIRECTION**
