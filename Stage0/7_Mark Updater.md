@@ -15,7 +15,7 @@ This module update scores for players
   Then **MARK UPDATER** increment score for
   'player 2'(player on right side)
   
-  ### Scenario: Incrementing score for 'Player 1'
+### Scenario: Incrementing score for 'Player 1'
 
   Given the game is running and ball is moving
 
