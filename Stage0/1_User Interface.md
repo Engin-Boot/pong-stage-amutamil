@@ -9,15 +9,15 @@ SCORE DISPLAY, BACKGROUND DESIGN
 
 ### Scenario: Playing area size
 
-  Given the x-y dimentions
+  Given the x-y dimensions
 
   When game launched
 
-  Then the playing area with given dimention is setup by this module
+  Then the playing area with given dimension is setup by this module
 
 ### Scenario: Background
 
-  Given the background type(i.e., colour,image, video), dimentions
+  Given the background type(i.e., colour,image, video), dimensions
 
   When game launched
 
@@ -29,7 +29,7 @@ SCORE DISPLAY, BACKGROUND DESIGN
 
   When game launched
 
-  Then two 1 dimentional floating pad is setup within playing area
+  Then two 1 dimensional floating pad is setup within playing area
   by this module
   
   ----------------------------------------------------------------
@@ -44,7 +44,7 @@ SCORE DISPLAY, BACKGROUND DESIGN
   
   When game launched
 
-  Then one 2 dimentional movable ball is setup within playing area
+  Then one 2 dimensional movable ball is setup within playing area
   by this module
   
   ----------------------------------------------------------------
@@ -55,7 +55,7 @@ SCORE DISPLAY, BACKGROUND DESIGN
   
 ### Scenario: Score Display
 
-  Given the dimention for score display
+  Given the dimension for score display
   
   When game launched
   
