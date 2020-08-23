@@ -16,6 +16,7 @@ SCORE DISPLAY, BACKGROUND DESIGN
   Then the playing area with given dimention is setup by this module
 
 ### Scenario: Background
+
   Given the background type(i.e., colour,image, video), dimentions
 
   When game launched
@@ -23,6 +24,7 @@ SCORE DISPLAY, BACKGROUND DESIGN
   Then the background is setup for playing area by this module
 
 ### Scenario: Pad
+
   Given the pad specifications
 
   When game launched
@@ -37,11 +39,12 @@ SCORE DISPLAY, BACKGROUND DESIGN
   Then pad moves up and down
   
 ### Scenario: Ball
+
   Given the Ball specifications
   
   When game launched
 
-  Then one 2 dimentional movable ball is setup within playing area 
+  Then one 2 dimentional movable ball is setup within playing area
   by this module
   
   ----------------------------------------------------------------
@@ -56,10 +59,10 @@ SCORE DISPLAY, BACKGROUND DESIGN
   
   When game launched
   
-  Then score display for two players is setup within given area 
+  Then score display for two players is setup within given area
   by this module
   
-  -------------------------------------------------------------
+  ----------------------------------------------------------------
   
   When **MARK UPDATER** calls
   
