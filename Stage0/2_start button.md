@@ -12,4 +12,4 @@ Begin's game
 
   When the **START BUTTON** clicked
 
-  Then activate **I/P FETCH** and **START FROM** modules                       
+  Then activate **I/P FETCH** and **START FROM** modules
