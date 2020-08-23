@@ -26,7 +26,7 @@
 
 * When ball hit left/right wall, then mark updated
   by **Mark Updater** module
-   
+
 * **Winner declare** module displays winner
 
 * **Replay or Quit** module navigate to start or exit game play
