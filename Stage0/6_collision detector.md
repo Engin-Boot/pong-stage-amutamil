@@ -8,7 +8,7 @@ This module detects collision of ball
 
 ### Scenario: Collision with pad or Up/down boundary
 
-  Given the ball is moving
+  Given the game is running and ball is moving
 
   When the ball touches up/down boundary or any of the two pads
   
@@ -16,7 +16,7 @@ This module detects collision of ball
   
 ### Scenario: Collision with left boundary
 
-  Given the ball is moving
+  Given the game is running and ball is moving
 
   When the ball touches left boundary
   
@@ -25,7 +25,7 @@ This module detects collision of ball
   
   ### Scenario: Collision with right boundary
 
-  Given the ball is moving
+  Given the game is running and ball is moving
 
   When the ball touches right boundary
   
