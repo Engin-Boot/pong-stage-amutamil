@@ -6,11 +6,10 @@ Begin's game
 
 ## Acceptance Criteria
 
-### Scenario: On Clicking start button
+### Scenario: Begin game when start button clicked
 
-  Given the start button
+  Given the game loaded, the **START BUTTON**
 
-  When the button is clicked
+  When the **START BUTTON** clicked
 
-  Then it setup **UI** and activate **I/P FETCH**
-  and **START FROM** modules
+  Then activate **I/P FETCH** and **START FROM** modules                       
