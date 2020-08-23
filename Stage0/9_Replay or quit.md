@@ -6,7 +6,7 @@ Replay or quit the game play
 
 ## Acceptance Criteria
 
-### Scenario: Replay
+### Scenario: Replay gameplay
 
   Given the winner is declared and provided option for replay and quit
   
@@ -16,7 +16,7 @@ Replay or quit the game play
   
   --------------------------------------
 
-### Scenario: Replay
+### Scenario: Quit gameplay
 
   Given the winner is declared and provided option for replay and quit
 
