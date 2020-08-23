@@ -23,7 +23,7 @@ This module detects collision of ball
   Then this module detect that as collision and calls **MARK UPDATER**
   and increase score for player one(one who is in left side)
   
-  ### Scenario: Update marks when ball hits left boundary
+### Scenario: Update marks when ball hits left boundary
   
   Given the game is running and ball is moving
 
